@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make your dreams come true day</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="containter">
+        <div class="head"> 
+            <h1> Make your dream come true Day</h1>
+        </div>
+        <div class="dreams">
+            <img src="dteams.gif" alt="dreams">
+            <img src="justdoit.gif" alt="just do it">
+            <img src="waiting.gif" alt="waiting">
+        </div>
+        <h2>January 13th</h2>
+        <div class="content">
+            <div class="what">
+            <h3>Dreams come true</h3>
+            <p>Make your dreams come true day is here to encourage you to chase your dreams don't procrastinate.</p>
+            </div>
+            <div class="inspire">
+            <h3>Dreams that inspire</h3>
+            <p> It is these dreams that Make your Dreams Come True Day celebrates. Dreams that motivate us to do better, encourage us to take on more challenges, and energize us to succeed in our lives - professionally and personally.</p>
+            </div>
+            <div class="celebrate">
+                <h3>How to celebrate?</h3>
+                <ul>
+                    <li>Get started on making your dream come true.</li>
+                    <li>Talk to someone who inspires you.</li>
+                    <li>Make an inspiration board with images and words relating to your dream.</li>
+                    <li>Write down your dream, make a project plan, and create deadlines for you to work towards.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="wilyou">
+            <h2>Will you make your dreams come true?</h2>
+            <a href="doit.html" target="_blank"><button class="yes" id="yes">Yes</button></a>
+            <script>
+                document.getElementById("yes").addEventListener("mouseover", function(){
+                    document.getElementById("yes").innerHTML = "Be a winner"
+                })
+                document.getElementById("yes").addEventListener("mouseout", function(){
+                    document.getElementById("yes").innerHTML = "Yes"
+                })
+            </script>
+            <button class="no" id="no">No</button>
+            <script>
+                var top = Math.floor(Math.random()*80)
+                var left = Math.floor(Math.random()*80)
+                document.getElementById("no").addEventListener("mouseover", function(){
+                    document.getElementById("no").style.position="absolute"
+                    document.getElementById("no").style.left=left+"%"
+                    document.getElementById("no").style.top=top+"%"
+                })
+                document.getElementById("no").addEventListener("mouseout",function(){
+                    document.getElementById("no").innerHTML = "Don't be a loser"
+                    
+                })
+            </script>
+
+        </div>
+        <div class="foot">
+            <p>Site by Rozkosz Adam</p>
+        </div>
+    </div>
+</body>
+</html>

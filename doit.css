@@ -1,0 +1,26 @@
+body
+{
+    background-color: #fba901;
+    text-align: center;
+}
+h1
+{
+    font-size: 3em;
+}
+video
+{
+    border: 20px solid #6cac7c;
+    width: 55%;
+    border-radius: 2.5%;
+}
+.text
+{
+    border-radius: 5%;
+    flex-wrap:wrap;
+    width: max-content;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    font-size: 3em;
+}
